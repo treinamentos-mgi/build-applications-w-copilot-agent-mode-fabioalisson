@@ -45,13 +45,13 @@ flowchart LR
 
 Registre seu plano aqui antes de editar o código.
 
-- Decisão da camada de apresentação:
-- Decisão da camada de lógica:
-- Decisão da camada de dados:
-- Abordagem para registro de atividades:
-- Abordagem para gerenciamento de equipes:
-- Abordagem para o placar:
-- Abordagem para sugestões de treino:
+- Decisão da camada de apresentação: `Apresentação: ligar as páginas ao cliente compartilhado e implementar estados de carregamento, vazio e erro acessíveis; confirmar os testes do frontend.`
+- Decisão da camada de lógica: `Lógica: implementar os serviços e rotas sobre esses modelos — incluindo validação com respostas 4xx, atividades, equipes, placar e sugestões — e confirmar test:api.`
+- Decisão da camada de dados: `Dados: completar as validações dos modelos e confirmar test:data; preservar o seed, cujo teste já passa.`
+- Abordagem para registro de atividades: `Registro: executar o registro de atividades`
+- Abordagem para gerenciamento de equipes: `Gerenciamento de equipes: seguir o padrão` 
+- Abordagem para o placar: `Placar: seguir o padrão`
+- Abordagem para sugestões de treino: `Treino: trenamento para aprimorar processos.`
 
 ## Plano de testes
 
